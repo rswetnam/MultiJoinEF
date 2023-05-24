@@ -11,7 +11,7 @@ using MultiJoinEF.Data;
 namespace MultiJoinEF.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230524154952_Initial")]
+    [Migration("20230524171506_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -102,12 +102,12 @@ namespace MultiJoinEF.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0ea97841-03f8-4f47-a82a-d523a16cbaa0",
+                            Id = "cf90b6d5-a5c5-4d03-8b4b-ce080660a95f",
                             Name = "Miss Muffett"
                         },
                         new
                         {
-                            Id = "9f1ae9af-67e0-4c5f-924e-399b25b656a0",
+                            Id = "8433895b-f350-4212-bca9-907fa702e969",
                             Name = "Jack Spratt"
                         });
                 });

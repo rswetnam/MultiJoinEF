@@ -21,8 +21,8 @@ namespace MultiJoinEF.Pages.Enrollments
 
         public IActionResult OnGet()
         {
-        ViewData["CourseId"] = new SelectList(_context.Courses, "Id", "Id");
-        ViewData["StudentId"] = new SelectList(_context.Students, "Id", "Id");
+        ViewData["CourseId"] = new SelectList(_context.Courses, "Id", "Name");
+        ViewData["StudentId"] = new SelectList(_context.Students, "Id", "Name");
             return Page();
         }
 

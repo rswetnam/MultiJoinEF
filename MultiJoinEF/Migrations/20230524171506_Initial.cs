@@ -79,8 +79,8 @@ namespace MultiJoinEF.Migrations
                 columns: new[] { "Id", "Name" },
                 values: new object[,]
                 {
-                    { "0ea97841-03f8-4f47-a82a-d523a16cbaa0", "Miss Muffett" },
-                    { "9f1ae9af-67e0-4c5f-924e-399b25b656a0", "Jack Spratt" }
+                    { "8433895b-f350-4212-bca9-907fa702e969", "Jack Spratt" },
+                    { "cf90b6d5-a5c5-4d03-8b4b-ce080660a95f", "Miss Muffett" }
                 });
 
             migrationBuilder.CreateIndex(
